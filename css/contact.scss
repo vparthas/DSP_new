@@ -1,0 +1,50 @@
+@import "exec";
+@import "base";
+
+#execHeading
+{
+  color: $nile_green;
+  font-size: x-large;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  //text-decoration: underline;
+  //margin: auto;
+}
+
+.icon
+{
+  fill: $nile_green;
+}
+
+.contactBlock
+{
+  border-left:1px solid #38546d;
+  //border-right:1px solid #16222c;
+  height:60px;
+
+  position: relative;
+
+  width: auto;
+
+  a
+  {
+    color: $body_text_color;
+    text-decoration: none;
+
+    position: absolute;
+    top: 25px;
+    transform: translateY(-50%);
+  }
+
+  a:hover
+  {
+    text-decoration: underline;
+    color: $nile_green;
+  }
+}
+
+//.execImg
+//{
+//
+//}

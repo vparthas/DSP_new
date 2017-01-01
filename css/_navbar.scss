@@ -1,0 +1,35 @@
+#navbar
+{
+  position: fixed;
+  z-index: 2;
+
+  background-color: $nile_green;
+
+  li
+  {
+    a
+    {
+      color: white;
+    }
+
+    a:hover
+    {
+      color: gold;
+      background-color: $nile_green;
+    }
+  }
+
+  height: 68px;
+}
+
+#navHeader
+{
+  color: white;
+  font-size: x-large;
+}
+
+#navHeader:hover
+{
+  color: gold;
+  background-color: $nile_green;
+}

@@ -1,0 +1,73 @@
+#navbar {
+  position: fixed;
+  z-index: 2;
+  background-color: #005B3C;
+  height: 68px; }
+  #navbar li a {
+    color: white; }
+  #navbar li a:hover {
+    color: gold;
+    background-color: #005B3C; }
+
+#navHeader {
+  color: white;
+  font-size: x-large; }
+
+#navHeader:hover {
+  color: gold;
+  background-color: #005B3C; }
+
+body {
+  background-color: whitesmoke; }
+
+.content {
+  padding-top: 70px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+  min-height: 80%; }
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: small;
+  width: 100%;
+  text-align: center; }
+
+h1 {
+  font-size: xx-large;
+  font-family: sans-serif;
+  color: #005B3C; }
+
+.button {
+  background-color: #005B3C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: white;
+  color: #005B3C; }
+
+iframe {
+  padding-top: 20%; }
+
+.textBlock {
+  margin-left: 5px;
+  color: rgba(1, 22, 22, 0.8); }
+
+#squadPhoto {
+  width: 60%;
+  float: right;
+  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  margin: 10px; }
+
+/*# sourceMappingURL=about.css.map */

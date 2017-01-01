@@ -1,0 +1,124 @@
+#navbar {
+  position: fixed;
+  z-index: 2;
+  background-color: #005B3C;
+  height: 68px; }
+  #navbar li a {
+    color: white; }
+  #navbar li a:hover {
+    color: gold;
+    background-color: #005B3C; }
+
+#navHeader {
+  color: white;
+  font-size: x-large; }
+
+#navHeader:hover {
+  color: gold;
+  background-color: #005B3C; }
+
+body {
+  background: url("../img/background_blurred.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden; }
+
+.greenShadow {
+  text-shadow: 0 0 0.3em #005B3C; }
+
+.orangeShadow {
+  text-shadow: 0 0 0.3em orange; }
+
+#title {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 500px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+
+#titleText {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20%; }
+
+#titleText f1 {
+  font-family: Aharoni, SansSerif;
+  color: white;
+  font-size: 6vw; }
+
+#bottom-span {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: white; }
+
+#top-span {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 2px;
+  background: white; }
+
+#title span {
+  animation-name: hoverOff-span;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards; }
+
+.iconLink {
+  height: 48px;
+  width: 48px; }
+
+#iconRack {
+  width: 500px;
+  margin: 0 auto;
+  animation-name: blurOff;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards; }
+
+#iconRack a {
+  margin-left: 38.5px;
+  margin-right: 38.5px; }
+
+#title:hover #iconRack {
+  animation-name: blurOn;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards; }
+
+#title:hover .line-span {
+  animation-name: hoverOn-span;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards; }
+
+@keyframes hoverOn-span {
+  from {
+    width: 0%; }
+  to {
+    width: 100%; } }
+@keyframes hoverOff-span {
+  from {
+    width: 100%; }
+  to {
+    width: 0%; } }
+@keyframes blurOn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes blurOff {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+/*# sourceMappingURL=index.css.map */
