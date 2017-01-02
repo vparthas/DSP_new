@@ -70,4 +70,12 @@ iframe {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   margin: 10px; }
 
+#alumniPhoto {
+  width: 100%;
+  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  margin-right: 20px;
+  margin-top: 10px; }
+
 /*# sourceMappingURL=about.css.map */
