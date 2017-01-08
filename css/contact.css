@@ -178,6 +178,7 @@ figure.effect-sarah:hover p {
   position: relative;
   width: auto; }
   .contactBlock a {
+    margin-left: 5px;
     color: rgba(1, 22, 22, 0.8);
     text-decoration: none;
     position: absolute;
