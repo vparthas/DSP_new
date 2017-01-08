@@ -11,6 +11,9 @@ iframe
 {
   margin-left: 5px;
   color: $body_text_color;
+
+  font-size: large;
+  font-family: Calibri, sans-serif;
 }
 
 #squadPhoto
@@ -35,4 +38,39 @@ iframe
 
   margin-right: 20px;
   margin-top: 10px;
+}
+
+#recLetter
+{
+  //margin-right: 20px;
+  padding-top: 15px;
+
+  color: $body_text_color;
+}
+
+#letterFooter
+{
+  color: $nile_green;
+
+  strong
+  {
+    font-weight: bold;
+  }
+
+  a
+  {
+    color: $nile_green;
+    text-decoration: none;
+  }
+
+  a:hover
+  {
+    text-decoration: underline;
+  }
+}
+
+#rushCalendar
+{
+  display: block;
+  margin: auto;
 }
