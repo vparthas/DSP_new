@@ -82,13 +82,14 @@ body {
 #iconRack {
   width: 500px;
   margin: 0 auto;
+  padding-left: 2px;
   animation-name: blurOff;
   animation-duration: 0.75s;
   animation-fill-mode: forwards; }
 
 #iconRack a {
-  margin-left: 38.5px;
-  margin-right: 38.5px; }
+  margin-left: 38px;
+  margin-right: 38px; }
 
 #title:hover #iconRack {
   animation-name: blurOn;
